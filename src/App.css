@@ -1,0 +1,476 @@
+/* Navbar */
+
+.navbar {
+  height: 80px;
+  background: #090909;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+  border-bottom: 1px solid #292929;
+}
+
+.logo {
+  color: white;
+  font-size: 27px;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: #e62429;
+  font-size: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a,
+.nav-buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e62429;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.login-btn {
+  padding: 10px 18px;
+}
+
+.register-btn {
+  background: #e62429;
+  padding: 11px 20px;
+  border-radius: 3px;
+}
+
+
+/* Hero Section */
+
+.hero {
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  padding: 70px 10%;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,0.95),
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.2)
+    ),
+    url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-small {
+  color: #e62429;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: clamp(38px, 5vw, 65px);
+  color: white;
+  line-height: 1.15;
+  margin: 25px 0;
+}
+
+.hero h1 span {
+  color: #e62429;
+}
+
+.hero-description {
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 530px;
+  margin-bottom: 35px;
+}
+
+
+/* Buttons */
+
+.primary-btn {
+  display: inline-block;
+  padding: 15px 28px;
+  background: #e62429;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: white;
+  color: #e62429;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin-top: 15px;
+  color: white;
+  background: #e62429;
+  padding: 13px 22px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+/* Marvel Strip */
+
+.marvel-strip {
+  background: #e62429;
+  color: white;
+  padding: 12px;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+
+/* Common Section Heading */
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.section-heading p {
+  color: #e62429;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.section-heading h2 {
+  color: white;
+  font-size: 38px;
+}
+
+.section-heading h2 span {
+  color: #e62429;
+}
+
+
+/* Introduction */
+
+.intro-section {
+  background: #101010;
+  padding: 90px 9%;
+}
+
+.intro-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.intro-image img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.intro-text h3 {
+  font-size: 30px;
+  color: white;
+}
+
+.intro-text p {
+  color: #aaa;
+  line-height: 1.9;
+  margin: 20px 0;
+}
+
+
+/* Movies Section */
+
+.movies-section {
+  padding: 90px 8%;
+  background: #080808;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.movie-card {
+  background: #171717;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 22px;
+}
+
+.movie-info h3 {
+  color: white;
+  font-size: 21px;
+}
+
+.movie-info p {
+  color: #999;
+  font-size: 14px;
+}
+
+
+/* Banner Section */
+
+.banner-section {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 70px 10%;
+
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.85)
+    ),
+    url("https://images.unsplash.com/photo-1519608487953-e999c86e7455");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content p:first-child {
+  color: #e62429;
+  letter-spacing: 3px;
+}
+
+.banner-content h2 {
+  color: white;
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+
+/* Footer */
+
+.footer {
+  background: #050505;
+  padding: 55px 8% 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  color: #e62429;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer-logo span {
+  color: white;
+  font-size: 17px;
+}
+
+.footer p {
+  color: #999;
+  margin: 15px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 35px 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #e62429;
+}
+
+.copyright {
+  color: #777;
+  font-size: 12px;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+}
+
+
+/* 404 Error Page */
+
+.error-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.88),
+      rgba(0,0,0,0.92)
+    ),
+    url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.error-content {
+  max-width: 600px;
+}
+
+.error-content h1 {
+  color: #e62429;
+  font-size: 150px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.error-content h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.error-content p {
+  color: #aaa;
+  line-height: 1.8;
+  margin: 25px 0 35px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 900px) {
+
+  .navbar {
+    padding: 20px 4%;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .intro-content {
+    gap: 30px;
+  }
+
+  .movie-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .nav-buttons {
+    justify-content: center;
+  }
+
+  .hero {
+    min-height: 550px;
+    padding: 50px 7%;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .intro-section,
+  .movies-section {
+    padding: 65px 7%;
+  }
+
+  .intro-content {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-image img {
+    height: 260px;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .movie-container {
+    grid-template-columns: 1fr;
+  }
+
+  .movie-card img {
+    height: 250px;
+  }
+
+  .banner-content h2 {
+    font-size: 35px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .error-content h1 {
+    font-size: 100px;
+  }
+
+  .error-content h2 {
+    font-size: 23px;
+  }
+
+}
